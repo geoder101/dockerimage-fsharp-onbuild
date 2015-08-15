@@ -1,0 +1,7 @@
+function runhook {
+    if [ -f _$1.sh ]; then
+        ./_$1.sh
+    else
+        make $1
+    fi
+}

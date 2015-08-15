@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+source runhook.include
+runhook fsharpcontainer-on-app-env-init
