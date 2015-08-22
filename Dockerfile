@@ -1,4 +1,4 @@
-FROM geoder101/fsharp-extended:1.0
+FROM geoder101/fsharp-extended
 MAINTAINER George Dernikos <geoder101@gmail.com>
 
 COPY hooks/ /usr/local/bin/
